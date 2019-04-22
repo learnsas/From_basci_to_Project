@@ -9,8 +9,6 @@ largest = 0
 for i in ls:
     if i > largest:
         largest = i
-    else:
-        largest = largest
 
 print(f"from given list largest number is {largest}")
 
